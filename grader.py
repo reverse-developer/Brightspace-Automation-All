@@ -11,7 +11,7 @@ fname='ethuku.csv'
 f = open(fname, 'a', encoding='utf-8')
 
 userbox = driver.find_element_by_xpath('//*[@id="userNameInput"]')
-userbox.send_keys('gvenkatapathy@algomau.ca')
+userbox.send_keys('giridharan@university.ca')
 
 passbox = driver.find_element_by_xpath('//*[@id="passwordInput"]')
 passbox.send_keys('abcd123')
